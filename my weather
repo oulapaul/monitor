@@ -19,25 +19,28 @@
 
         header {  
             text-align: center;  
-            margin-bottom: 20px;  
+            margin-bottom: 20px;
+            text-transform:uppercase;
         }  
 
         .search-container {  
             display: flex;  
-            margin-bottom: 20px;  
+            margin-bottom: 20px; 
+            text-transform:uppercase;
         }  
 
         input[type="text"] {  
             padding: 10px;  
             width: 70%;  
-            border: 1px solid #cccccc;  
-            border-radius: 5px;  
+            border: 3px solid #1cc905;  
+            border-radius: 5px;
+            text-transform:uppercase;
         }  
 
         button {  
             padding: 10px;  
-            background-color: #007bff;  
-            color: white;  
+            background-color: #ff8800;  
+            color: blue;  
             border: none;  
             border-radius: 5px;  
             cursor: pointer;  
@@ -49,12 +52,13 @@
         }  
 
         .weather-info {  
-            text-align: center;  
+            text-align: center;
+            text-transform:uppercase;
             display: none;  
             border: 1px solid #ccc;  
             border-radius: 5px;  
             padding: 15px;  
-            background-color: white;  
+            background-color: sky-blue;  
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);  
         }  
 
